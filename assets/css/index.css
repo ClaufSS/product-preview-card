@@ -53,10 +53,6 @@ body {
   padding: 6%;
 }
 
-.product-img {
-  width: 100%;
-}
-
 .product-description {
   flex-direction: column;
   justify-content: space-between;
@@ -126,13 +122,15 @@ body {
   }
 
   .product-img {
+    max-width: 100%;
     content: url("./../images/image-product-mobile.jpg");
   }
 
   .product-body {
-    max-width: var(100%);
+    max-width: 100%;
   }
 }
+
 
 @media Screen and (min-width: 480px) and (max-width: 680px) {
   .product-card {
@@ -140,11 +138,14 @@ body {
   }
 }
 
+
 @media Screen and (min-width: 680px) {
   :root {
     --card-max-width: 600px;
   }
+  
   .product-img {
+    max-width: 50%;
     content: url("./../images/image-product-desktop.jpg");
   }
 
@@ -153,6 +154,6 @@ body {
   }
 
   .product-body {
-    max-width: calc(var(--card-max-width) / 2);
+    max-width: 50%;
   }
 }

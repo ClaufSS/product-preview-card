@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](#)
-- [Live Site URL](https://claufss.githu.io/product-preview-card)
+- [Live Site URL](https://claufss.github.io/product-preview-card)
 
 ## My process
 

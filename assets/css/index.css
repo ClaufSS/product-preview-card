@@ -126,7 +126,7 @@ body {
   }
 
   .product-img {
-    content: url("/images/image-product-mobile.jpg");
+    content: url("./images/image-product-mobile.jpg");
   }
 
   .product-body {
@@ -145,7 +145,7 @@ body {
     --card-max-width: 600px;
   }
   .product-img {
-    content: url("/images/image-product-desktop.jpg");
+    content: url("./images/image-product-desktop.jpg");
   }
 
   .product-card {
